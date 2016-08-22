@@ -1,0 +1,12 @@
+{{#if addNewCategory}}
+  <h1>add a new category:</h1>
+    <form>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        {{input value=name id="name"}}
+      </div>
+      <button {{action 'save'}}>Save</button>
+    </form>
+{{else}}
+<button {{action 'categoryFormShow'}}>add a category</button>
+{{/if}}

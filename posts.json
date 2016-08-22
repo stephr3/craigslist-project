@@ -1,0 +1,50 @@
+{ "cities": [{
+    "name": "portland",
+    "state": "OR"
+  },
+  {
+    "name": "eugene",
+    "state": "OR"
+  },
+  {
+    "name": "bend",
+    "state": "OR"
+  },
+  {
+    "name": "salem",
+    "state": "OR"
+  },
+  {
+    "name": "medford-ashland",
+    "state": "OR"
+  }
+],
+"categories": [{
+    "name": "community"
+  },
+  {
+    "name": "personals"
+  },
+  {
+    "name": "discussion forums"
+  },
+  {
+    "name": "housing"
+  },
+  {
+    "name": "for sale"
+  },
+  {
+    "name": "services"
+  },
+  {
+    "name": "jobs"
+  },
+  {
+    "name": "gigs"
+  },
+  {
+    "name": "resumes"
+  }
+]
+}

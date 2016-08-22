@@ -1,0 +1,9 @@
+<h1>craigslist</h1>
+
+{{new-category save="save"}}
+
+<ul>
+  {{#each model as |category|}}
+    <li> {{category.name}} </li>
+  {{/each}}
+</ul>
