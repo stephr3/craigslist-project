@@ -4,6 +4,6 @@
 
 <ul>
   {{#each model as |category|}}
-    <li> {{category.name}} </li>
+    {{#link-to 'category' category.id}}<li> {{category.name}}</li>{{/link-to}}
   {{/each}}
 </ul>
